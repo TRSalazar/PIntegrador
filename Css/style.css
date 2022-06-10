@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #333;
+    font: 400;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav h1,
+footer h1 {
+    font-family: "Coiny", cursive;
+}
+
+nav h1 {
+    margin-right: auto;
+}
+
+header h1 {
+    font-size: 41px;
+    font-weight: 700;
+}
+
+h1,
+h2,
+h3 {
+    color: black;
+}
+
+h2,
+h3 {
+    font-size: 20px;
+    background-color: #fcee21;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h2 {
+    font-weight: none;
+}
+
+footer {
+    height: 100px;
+    padding: 10px;
+    background-color: #fcee21;
+}
+
+h4 {
+    margin: 0;
+    font-size: 51px;
+    color: white;
+    background-color: black;
+    line-height: 100px;
+    padding: 10px;
+}
+
+footer h1 {
+    font-size: 33px;
+}
+
+section {
+    width: 45%;
+}
+
+main {
+    font-size: 21px;
+}
+
+nav a,
+footer a {
+    margin-left: 20px;
+    color: #7a7a7a;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    padding: 20px;
+}
+
+nav a {
+    text-transform: capitalize;
+}
+
+footer,
+main,
+header,
+aside {
+    width: 100%;
+}
+
+aside img {
+    height: auto;
+    width: 50%;
+}
+
+header img {
+    width: 70%;
+    margin-left: 30%;
+}
