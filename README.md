@@ -1,2 +1,2 @@
 # P.Integrador
-Proyecto Integrador Módulo 2. Digitalers Front End Developer
+Proyecto Integrador. Digitalers Front End React Developer
