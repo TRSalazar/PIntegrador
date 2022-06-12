@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* ----------body---------- */
 body {
     color: #333;
     font: 400;
@@ -12,48 +13,45 @@ body {
     margin: 0;
 }
 
-nav li {
-    list-style: none;
-}
-
-nav h1,
-footer h1 {
-    font-family: "Coiny", cursive;
+/* ---------nav--------- */
+nav {
+    padding: 20px;
 }
 
 nav h1 {
     margin-right: auto;
 }
 
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-transform: capitalize;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* -------header-------- */
 header h1 {
     font-size: 41px;
     font-weight: 700;
 }
 
-h1,
-h2,
-h3 {
-    color: black;
+header img {
+    width: 70%;
+    margin-left: 30%;
 }
 
-h2,
-h3 {
-    font-size: 20px;
-    background-color: #fcee21;
-}
-
-h3 {
-    font-size: 26px;
-}
-
+/* -------h1234--------- */
 h2 {
     font-weight: none;
 }
 
-footer {
-    height: 100px;
-    padding: 10px;
-    background-color: #fcee21;
+h3 {
+    font-size: 26px;
 }
 
 h4 {
@@ -65,16 +63,38 @@ h4 {
     padding: 10px;
 }
 
+h2,
+h3 {
+    font-size: 20px;
+    background-color: #fcee21;
+}
+
+h1,
+h2,
+h3 {
+    color: black;
+}
+
+/* ------footer------- */
+footer {
+    height: 100px;
+    padding: 10px;
+    background-color: #fcee21;
+}
+
 footer h1 {
     font-size: 33px;
 }
 
+/* -------section------- */
 section {
     width: 45%;
 }
 
-main {
-    font-size: 21px;
+/* --------nav,footer------- */
+nav h1,
+footer h1 {
+    font-family: "Coiny", cursive;
 }
 
 nav a,
@@ -84,16 +104,15 @@ footer a {
     text-decoration: none;
 }
 
-nav a:hover {
-    text-decoration: underline;
+/* ------main------ */
+main {
+    font-size: 21px;
 }
 
-nav {
-    padding: 20px;
-}
-
-nav a {
-    text-transform: capitalize;
+/* -------aside------- */
+aside img {
+    height: auto;
+    width: 50%;
 }
 
 footer,
@@ -101,14 +120,4 @@ main,
 header,
 aside {
     width: 100%;
-}
-
-aside img {
-    height: auto;
-    width: 50%;
-}
-
-header img {
-    width: 70%;
-    margin-left: 30%;
 }
