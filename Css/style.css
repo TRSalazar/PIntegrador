@@ -127,3 +127,23 @@ ul{
 ol li{
     margin-bottom: 6%;
 }
+/* -------span------ */
+span {
+    color: red;
+}
+/* ------label------ */
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+/* ----input---- */
+input{
+    height: 40px;
+}
+input, textarea {
+    width: 100%;
+}
+/* -----form----- */
+form{
+    margin: auto;
+}
