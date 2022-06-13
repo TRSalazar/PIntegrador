@@ -22,10 +22,6 @@ nav h1 {
     margin-right: auto;
 }
 
-nav li {
-    list-style: none;
-}
-
 nav a {
     text-transform: capitalize;
 }
@@ -120,4 +116,14 @@ main,
 header,
 aside {
     width: 100%;
+}
+/* -------ul-------- */
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/* -------ol-------- */
+ol li{
+    margin-bottom: 6%;
 }
