@@ -10,19 +10,24 @@ body {
     font: 400;
     font-size: 24px;
     font-family: "Roboto", sans-serif;
-    margin: 0;
+    margin: 0 auto;
+    width: 45%;
 }
 
-/* ---------nav--------- */
+/* ----------nav---------- */
 nav {
     padding: 20px;
 }
 
 nav h1 {
     margin-right: auto;
+    font-family: "Coiny", cursive;
 }
 
 nav a {
+    margin-left: 20px;
+    color: #7a7a7a;
+    text-decoration: none;
     text-transform: capitalize;
 }
 
@@ -30,7 +35,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* -------header-------- */
+/* ----------header---------- */
 header h1 {
     font-size: 41px;
     font-weight: 700;
@@ -41,7 +46,7 @@ header img {
     margin-left: 30%;
 }
 
-/* -------h1234--------- */
+/* ----------h1234---------- */
 h2 {
     font-weight: none;
 }
@@ -71,79 +76,92 @@ h3 {
     color: black;
 }
 
-/* ------footer------- */
+/* ----------footer---------- */
 footer {
     height: 100px;
     padding: 10px;
+    width: 45%;
     background-color: #fcee21;
 }
 
 footer h1 {
     font-size: 33px;
-}
-
-/* -------section------- */
-section {
-    width: 45%;
-}
-
-/* --------nav,footer------- */
-nav h1,
-footer h1 {
     font-family: "Coiny", cursive;
 }
 
-nav a,
 footer a {
     margin-left: 20px;
     color: #7a7a7a;
     text-decoration: none;
 }
 
-/* ------main------ */
+/* ----------section---------- */
+/* section {
+    width: 45%;
+} */
+
+/* ----------main---------- */
 main {
     font-size: 21px;
 }
 
-/* -------aside------- */
-aside img {
-    height: auto;
-    width: 50%;
-}
-
-footer,
 main,
 header,
-aside {
+aside,
+footer {
     width: 100%;
 }
-/* -------ul-------- */
-ul{
+
+/* ----------aside---------- */
+aside {
+    text-align: center;
+}
+
+aside img {
+    text-align: center;
+    height: auto;
+    width: 5%;
+}
+
+/* ----------list---------- */
+ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-/* -------ol-------- */
-ol li{
+
+ol li {
     margin-bottom: 6%;
 }
-/* -------span------ */
+
+/* ----------span---------- */
 span {
     color: red;
 }
-/* ------label------ */
-label{
+
+/* ----------label---------- */
+label {
     display: block;
     margin-bottom: 5px;
 }
-/* ----input---- */
-input{
+
+/* ----------input---------- */
+input {
     height: 40px;
+    margin-bottom: 8px;
 }
-input, textarea {
+
+input,
+textarea {
     width: 100%;
 }
-/* -----form----- */
-form{
+
+/* ----------form---------- */
+form {
     margin: auto;
+}
+
+/* ----------class---------- */
+.services img {
+    width: 100%;
 }
