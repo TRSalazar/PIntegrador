@@ -11,7 +11,7 @@ body {
     font-size: 24px;
     font-family: "Roboto", sans-serif;
     margin: 0 auto;
-    width: 45%;
+    width: 75%;
 }
 
 /* ----------nav---------- */
@@ -53,6 +53,7 @@ h2 {
 
 h3 {
     font-size: 26px;
+    display: inline;
 }
 
 h4 {
@@ -62,6 +63,7 @@ h4 {
     background-color: black;
     line-height: 100px;
     padding: 10px;
+    display: inline;
 }
 
 h2,
@@ -164,4 +166,36 @@ form {
 /* ----------class---------- */
 .services img {
     width: 100%;
+}
+.grande {
+    font-size: 100px;
+    font-family: 'Coiny', cursive;
+}
+.item {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #fcee21;
+    color: black;
+}
+.encolumnar {
+    padding: 20px;
+    margin-bottom: 30px;
+    border-bottom: 0.5px solid gray;
+}
+header.encolumnar, aside.encolumnar {
+    border-bottom: none;
+}
+.boton {
+color: white;
+background-color: black;
+
+}
+/* ----------id---------- */
+#titulo {
+    font-size: 40px;
+}
+#imagen {
+    width: 80%;
+    display: block;
+    margin: auto;
 }
